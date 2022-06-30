@@ -1,0 +1,61 @@
+body, html {
+    font-family: 'Roboto',
+        sem serifa;
+}
+
+#header{
+    width: 100%;
+    background-color: transparente;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    margin:o;
+}
+#header .nav-link {  
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border-bottom: solid 4px transparent;
+
+} 
+#header .nav-link:hover {
+    border-bottom: solid 4px black;
+    
+}
+
+#header .navbar-brand {
+    color: rgb(252, 109, 6);
+    font-weight: 900;
+
+}
+#header .container{
+    margin-top: 0;
+}
+
+
+
+#telalogin{
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    opacity: 0.9;
+    background-color: rgb(116, 109, 109);
+    box-shadow:1px 5px 30px rgb(221, 216, 216);
+    
+}
+#fundo{
+    background-image: url(./imagem/business-g0be42672a_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo{
+    left: 50%;
+}
